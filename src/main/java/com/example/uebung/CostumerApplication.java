@@ -1,13 +1,13 @@
-package com.example.Uebung;
+package com.example.uebung;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class UebungApplication {
+public class CostumerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(UebungApplication.class, args);
+		SpringApplication.run(CostumerApplication.class, args);
 	}
 
 }

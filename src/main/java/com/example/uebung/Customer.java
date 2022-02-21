@@ -1,13 +1,11 @@
-package com.example.Uebung;
+package com.example.uebung;
 
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 
 @Entity
-public class People {
+public class Customer {
 
     @Id
     private String key;
