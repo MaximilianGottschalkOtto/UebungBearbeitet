@@ -10,19 +10,18 @@ import javax.persistence.Id;
 public class People {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
-
-    private String firstName;
+    private String key;
 
     private String lastName;
 
-    public Long getId() {
-        return id;
+    private String firstName;
+
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setId(Long id) {
-        this.id = id;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     public String getFirstName() {
@@ -33,11 +32,11 @@ public class People {
         this.firstName = firstName;
     }
 
-    public String getLastName() {
-        return lastName;
+    public String getKey() {
+        return key;
     }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public void setKey(String key) {
+        this.key = key;
     }
 }
